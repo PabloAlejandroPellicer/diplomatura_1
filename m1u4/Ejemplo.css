@@ -18,8 +18,28 @@ p {
 
 }
 
-.destacados{
+.destacados {
     color: red;
     font-style: italic;
     font-weight: bold;
+}
+
+#caja {
+    background-color: orange;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 80px;
+    border: 10px solid black;
+}
+
+#caja p {
+    color: cyan;
+}
+
+#caja h2 {
+    color: white;
+    font-size: 15px;
+
 }

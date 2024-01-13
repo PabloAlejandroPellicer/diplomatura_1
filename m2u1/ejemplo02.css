@@ -1,0 +1,26 @@
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Tektur', sans-serif;
+*/
+
+.texto {
+    background: orange;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+}
+
+.texto .sinmargen {
+    margin-top: 0;
+}
+
+h2 {
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+}

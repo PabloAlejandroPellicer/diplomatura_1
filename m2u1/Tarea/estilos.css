@@ -1,4 +1,5 @@
-/*font-family: 'Instrument Serif', serif;
+/* -----fuentes para pegarlas cuando las necesitemos----
+font-family: 'Instrument Serif', serif;
 font-family: 'Roboto', sans-serif;*/
 h1 {
     background-color: grey;
@@ -29,7 +30,7 @@ ul {
     font-size: 20px;
     line-height: 25px;
 }
-
+/* se le da formatos a la caja con gradientes, sombreas, fuente con sombras, bordes redondondeados, etc*/
 .caja {
     margin: 50px;
     padding: 20px;
@@ -49,6 +50,7 @@ ul {
     -moz-border-radius: 77px 37px 105px 40px;
     border: 8px solid #50eeff;
 }
+/* se le da dormato al texto dentro de la caja para 2 columnas */
 .texto {
     column-count: 2;
     column-gap: 50px;

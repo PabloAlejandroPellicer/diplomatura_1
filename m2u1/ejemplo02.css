@@ -1,22 +1,27 @@
-/*
+/* ---aca pegamos para tener a mano las fuentes que llamamos desde la pagina externa---
 font-family: 'Anton', sans-serif;
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Tektur', sans-serif;
 */
+/* aca le decimos a la caja que tendra su  contenido en dos columnas creando la siguiente clase*/
 .texto {
     background: orange;
     column-count: 2;
     column-gap: 50px;
     column-rule: 2px solid black;
 }
+
+/* aca creamos una subclase para que no tenga margen y quede correcta la primera columna*/
 .texto .sinmargen {
     margin-top: 0;
 }
+
 h2 {
     color: red;
     font-family: 'Anton', sans-serif;
     font-size: 50px;
 }
+
 p {
     font-family: 'Bebas Neue', sans-serif;
 }
